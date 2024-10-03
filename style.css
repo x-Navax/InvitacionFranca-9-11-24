@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Sacramento&display=swap');
+*{margin: 0;
+    padding: 0;
+}
+
+#bg{
+    background-image: url("./imagenes/flores.png");
+    background-size:cover;
+    background-position:center;
+   
+}
+   .franpng {
+    width: 80%;
+}
+.fecha {
+    width: 80%;
+}
+.frase{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 1.4rem;
+    color: #000000;
+}
+   header {
+    text-align: center;}
+    header h1 {
+        font-family: "Sacramento", cursive;
+        font-size: 8rem;
+        margin-top: 15px;
+        margin-bottom: -50px;
+    }
+header h2 {font-family: "Edu AU VIC WA NT Hand", cursive;
+    padding-bottom: 15px;
+    font-size: 220%;
+    color: #000000;
+    
+}
+header h3 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    color: #000000;
+    
+    margin-top: -40px;
+}
+header div img { width: 75%;
+    height:80%;}
+
+   .time_circles {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000;
+    margin-top: -30px;
+  
+    }
+    
+    .time_circles div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    margin: 0.8rem;
+    }
+    
+    .time_circles span.number {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .time_circles span.text {
+    font-size: 1.1rem; 
+    text-transform: uppercase;
+    }
+    .mensaje {text-align: center;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 2.5rem;
+  color: red;}
+
+  /* CUANDO Y UBUCACION */
+  .container {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 20px;
+    max-width: 411px;
+}
+.section {
+    text-align: center;
+}
+.section img {
+    width:65px;
+    height: 65px;
+}
+.section a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.section span {
+    display: block;
+    
+    font-style: italic;
+}
+.llegar {
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #daa520;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+    
+}
+.ubi{
+
+    font-size: 1.2rem;
+}
+.ropa{
+    width: 10rem;
+}
+.dress {
+    font-size: 1.6rem;
+}
+.code {
+    font-size: 1.4rem;
+}
+.mesadeRegalos{
+  text-align: center;
+  
+}
+.TituloRegalos img{
+  width: 50px;
+
+}
+.cbu{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #daa520;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #daa520;
+}
+
+.whatsapp-button {
+    padding: 10px;
+}
