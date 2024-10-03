@@ -150,6 +150,7 @@ header div img { width: 75%;
 .cbu{
   font-size: 1.2rem;
   margin-bottom: 10px;
+  padding-bottom: 80px;
 }
 
 .whatsapp-float {
@@ -178,3 +179,4 @@ header div img { width: 75%;
 .whatsapp-button {
     padding: 10px;
 }
+
