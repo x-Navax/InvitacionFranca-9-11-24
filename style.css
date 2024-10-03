@@ -16,7 +16,7 @@
    
 }
    .franpng {
-    width: 80%;
+    width: 90%;
 }
 .fecha {
     width: 80%;
@@ -34,10 +34,12 @@
         margin-top: 15px;
         margin-bottom: -50px;
     }
-header h2 {font-family: "Edu AU VIC WA NT Hand", cursive;
+header h2 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
     padding-bottom: 15px;
-    font-size: 220%;
+    font-size: 210%;
     color: #000000;
+    margin-top: 20px;
     
 }
 header h3 {
